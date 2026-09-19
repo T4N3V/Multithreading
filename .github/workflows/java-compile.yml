@@ -23,3 +23,5 @@ jobs:
           java-version: "11"
       - name: Compile all examples
         run: javac *.java
+      - name: Test synchronized example
+        run: java SynchronizedExample2Test
